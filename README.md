@@ -8,15 +8,15 @@
 ## Software Required:
 Anaconda - Python 3.7
 ## Algorithm:
-### Step1:
+### Step 1:
 Choose an image and save it as a filename.jpg
-### Step2:
+### Step 2:
 Use imread(filename, flags) to read the file.
-### Step3:
+### Step 3:
 Use imshow(window_name, image) to display the image.
-### Step4:
+### Step 4:
 Use imwrite(filename, image) to write the image.
-### Step5:
+### Step 5:
 End the program and close the output image windows.
 
 ## Program:
