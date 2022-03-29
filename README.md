@@ -1,5 +1,5 @@
-# READ AND WRITE AN IMAGE
-## AIM
+# Read and Write an Image:
+## Aim:
 #### To write a python program using OpenCV to do the following image manipulations.
 ##### i) Read, display, and write an image.
 ##### ii) Access the rows and columns in an image.
@@ -19,67 +19,47 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-```python
-# Developed By:
-# Register Number
-# To Read,display the image
-
-
-
-
-# To write the image
-
-
-
-
-
-# Find the shape of the Image
-
-
-
-
-# To access rows and columns
-
-
-
-
-
-# To cut and paste portion of image
-
-
-
-
-
-
-
-
-
-
 ```
+# Developed By: Syed Abdul Wasih H
+# Register Number : 212221240057
+```
+
+## i) To Read,display the image:
+~~~
+import cv2
+color= cv2.imread('Alone.jpg',-1)
+cv2.imshow('image',color)
+cv2.waitKey(0)
+~~~
+## ii) To write the image:
+~~~
+import cv2
+color= cv2.imread('Alone.jpg',-1)
+cv2.imwrite('Alone.jpg',color)
+~~~
+## iii) Find the shape of the Image:
+~~~
+
+~~~
+
+## iv) To access rows and columns:
+~~~
+~~~
+## v) To cut and paste portion of image:
+~~~
+~~~
 ## Output:
+### i) Read and display the image:
+![output](./img/1.jpg)
+### ii)Write the image:
+![output](./img/2.jpg) 
+### iii)Shape of the Image:
+![output](./img/3.jpg)
+### iv)Access rows and columns:
+![output](./img/1.jpg)
 
-### i) Read and display the image
-
-<br>
-<br>
-
-### ii)Write the image
-
-<br>
-<br>
-
-### iii)Shape of the Image
-
-<br>
-<br>
-
-### iv)Access rows and columns
-<br>
-<br>
-
-### v)Cut and paste portion of image
-<br>
-<br>
+### v)Cut and paste portion of image:
+![output](./img/1.jpg)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
