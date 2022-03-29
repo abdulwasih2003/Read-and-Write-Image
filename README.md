@@ -39,7 +39,9 @@ cv2.imwrite('Alone.jpg',color)
 ~~~
 ## iii) Find the shape of the Image:
 ~~~
-
+import cv2
+color=cv2.imread('Alone.jpg',1)
+print(color.shape)
 ~~~
 
 ## iv) To access rows and columns:
@@ -56,10 +58,10 @@ cv2.imwrite('Alone.jpg',color)
 ### iii)Shape of the Image:
 ![output](./img/3.jpg)
 ### iv)Access rows and columns:
-![output](./img/1.jpg)
+![output](./img/4.jpg)
 
 ### v)Cut and paste portion of image:
-![output](./img/1.jpg)
+![output](./img/5.jpg)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
