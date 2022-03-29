@@ -18,33 +18,34 @@ Use imshow(window_name, image) to display the image.
 Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
+
 ## Program:
 ```
 # Developed By: Syed Abdul Wasih H
 # Register Number : 212221240057
 ```
 
-## i) To Read,display the image:
+## i) To Read and Display the image:
 ~~~
 import cv2
 color= cv2.imread('Alone.jpg',-1)
 cv2.imshow('image',color)
 cv2.waitKey(0)
 ~~~
-## ii) To write the image:
+## ii) To Write the image:
 ~~~
 import cv2
 color= cv2.imread('Alone.jpg',-1)
 cv2.imwrite('Alone.jpg',color)
 ~~~
-## iii) Find the shape of the Image:
+## iii) Find the Shape of the Image:
 ~~~
 import cv2
 color=cv2.imread('Alone.jpg',1)
 print(color.shape)
 ~~~
 
-## iv) To access rows and columns:
+## iv) To access Rows and Columns:
 ~~~
 import cv2
 import random
@@ -55,29 +56,25 @@ for i in range(150):
 cv2.imshow('Alone.jpg',img)
 cv2.waitKey(0)
 ~~~
-## v) To cut and paste portion of image:
+## v) To Cut and Paste portion of image:
 ~~~
 import cv2
 img= cv2.imread('Alone.jpg',-1)
-tag = img[200:450,200:450]
-img[150:400,150:400] = tag
+new = img[200:450,200:450]
+img[150:400,150:400] = new
 cv2.imshow('Alone',img)
 cv2.waitKey(0)
 ~~~
 ## Output:
 ### i) Read and display the image:
 ![output](./img/1.jpg)
-### ii)Write the image:
+### ii) Write the image:
 ![output](./img/2.jpg) 
-### iii)Shape of the Image:
+### iii) Shape of the Image:
 ![output](./img/3.jpg)
-### iv)Access rows and columns:
+### iv) Access rows and columns:
 ![output](./img/4.jpg)
-
-### v)Cut and paste portion of image:
+### v) Cut and paste portion of image:
 ![output](./img/5.jpg)
-
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
-
-
