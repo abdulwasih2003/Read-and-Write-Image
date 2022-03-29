@@ -57,6 +57,12 @@ cv2.waitKey(0)
 ~~~
 ## v) To cut and paste portion of image:
 ~~~
+import cv2
+img= cv2.imread('Alone.jpg',-1)
+tag = img[200:450,200:450]
+img[150:400,150:400] = tag
+cv2.imshow('Alone',img)
+cv2.waitKey(0)
 ~~~
 ## Output:
 ### i) Read and display the image:
