@@ -46,6 +46,14 @@ print(color.shape)
 
 ## iv) To access rows and columns:
 ~~~
+import cv2
+import random
+img= cv2.imread('Alone.jpg',-1)
+for i in range(150):
+    for j in range(img.shape[1]):
+        img[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow('Alone.jpg',img)
+cv2.waitKey(0)
 ~~~
 ## v) To cut and paste portion of image:
 ~~~
