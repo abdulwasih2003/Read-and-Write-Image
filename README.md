@@ -67,14 +67,14 @@ cv2.waitKey(0)
 ~~~
 ## Output:
 ### i) Read and display the image:
-![output](./img/.jpg)
+![output](./img/1.jpg)
 ### ii) Write the image:
 ![output](./img/2.jpg) 
 ### iii) Shape of the Image:
 ![output](./img/3.jpg)
 ### iv) Access rows and columns:
-![output](./img/.jpg)
+![output](./img/4.jpg)
 ### v) Cut and paste portion of image:
-![output](./img/.jpg)
+![output](./img/5.jpg)
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
